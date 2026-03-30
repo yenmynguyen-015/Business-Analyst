@@ -1,0 +1,72 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="fdkmcQ1JiMdEO6XgJ5On">
+    <mxGraphModel dx="1905" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C_MjAmGoHxCXsJzjewYM-1" value="StoreOwner" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="35" height="524" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MjAmGoHxCXsJzjewYM-2" value="InventoryPage" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="250" y="20" width="150" height="524" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MjAmGoHxCXsJzjewYM-3" value="InventoryService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="550" y="20" width="150" height="524" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MjAmGoHxCXsJzjewYM-4" value="InventoryDatabase" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="850" y="20" width="152" height="524" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MjAmGoHxCXsJzjewYM-5" value="Nhập số lượng tồn kho mới" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" edge="1" parent="1" source="C_MjAmGoHxCXsJzjewYM-1" target="C_MjAmGoHxCXsJzjewYM-2">
+          <mxGeometry x="-0.0052" y="7" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="245" y="127" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_MjAmGoHxCXsJzjewYM-6" value="Click &quot;Update Inventory&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" edge="1" parent="1" source="C_MjAmGoHxCXsJzjewYM-1" target="C_MjAmGoHxCXsJzjewYM-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="245" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_MjAmGoHxCXsJzjewYM-7" value="updateInventory(productId, quantity)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" edge="1" parent="1" source="C_MjAmGoHxCXsJzjewYM-2" target="C_MjAmGoHxCXsJzjewYM-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="499" y="231" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_MjAmGoHxCXsJzjewYM-8" value="updateStock(productId, quantity)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" edge="1" parent="1" source="C_MjAmGoHxCXsJzjewYM-3" target="C_MjAmGoHxCXsJzjewYM-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="816" y="283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_MjAmGoHxCXsJzjewYM-9" value="updateSuccess(newQuantity)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" edge="1" parent="1" source="C_MjAmGoHxCXsJzjewYM-4" target="C_MjAmGoHxCXsJzjewYM-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="819" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_MjAmGoHxCXsJzjewYM-10" value="inventoryUpdated(newQuantity)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" edge="1" parent="1" source="C_MjAmGoHxCXsJzjewYM-3" target="C_MjAmGoHxCXsJzjewYM-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="502" y="387" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_MjAmGoHxCXsJzjewYM-11" value="Hiển thị số lượng tồn kho mới" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" edge="1" parent="1" source="C_MjAmGoHxCXsJzjewYM-2" target="C_MjAmGoHxCXsJzjewYM-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="248" y="439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

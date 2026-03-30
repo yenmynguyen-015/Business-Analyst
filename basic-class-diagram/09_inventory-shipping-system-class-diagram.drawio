@@ -1,0 +1,401 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="LUjqW8D94H-TmLXnNUzM">
+    <mxGraphModel dx="2666" dy="2135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HzTAScDG-thNsHV8U3m5-1" value="Customer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="266" y="20" width="159" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-2" value="-customerId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-1">
+          <mxGeometry y="40" width="159" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-3" value="-name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-1">
+          <mxGeometry y="80" width="159" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-4" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-1">
+          <mxGeometry y="120" width="159" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-5" value="+placeOrder()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-1">
+          <mxGeometry y="128" width="159" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-6" value="WarehouseStaff" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36.8;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="479" y="274" width="223" height="192.8" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-7" value="-staffId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-6">
+          <mxGeometry y="36.8" width="223" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-8" value="-name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-6">
+          <mxGeometry y="73.8" width="223" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-6">
+          <mxGeometry y="110.8" width="223" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-10" value="+processShipment()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-6">
+          <mxGeometry y="118.8" width="223" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-11" value="+updateInventory()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-6">
+          <mxGeometry y="155.8" width="223" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-12" value="Product" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36.8;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="576" width="162" height="192.8" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-13" value="-productId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-12">
+          <mxGeometry y="36.8" width="162" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-14" value="-name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-12">
+          <mxGeometry y="73.8" width="162" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-15" value="-stockQuantity" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-12">
+          <mxGeometry y="110.8" width="162" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-16" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-12">
+          <mxGeometry y="147.8" width="162" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-17" value="+updateStock()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-12">
+          <mxGeometry y="155.8" width="162" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-18" value="Inventory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="286" width="192" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-19" value="-inventoryId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-18">
+          <mxGeometry y="40" width="192" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-20" value="-quantityAvailable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-18">
+          <mxGeometry y="80" width="192" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-21" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-18">
+          <mxGeometry y="120" width="192" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-22" value="+updateQuantity()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-18">
+          <mxGeometry y="128" width="192" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-23" value="Order" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=34.666666666666664;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="262" y="262" width="167" height="217.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-24" value="-orderId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-23">
+          <mxGeometry y="34.666666666666664" width="167" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-25" value="-orderDate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-23">
+          <mxGeometry y="69.66666666666666" width="167" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-26" value="-status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-23">
+          <mxGeometry y="104.66666666666666" width="167" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-27" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-23">
+          <mxGeometry y="139.66666666666666" width="167" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-28" value="+calculateTotal()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-23">
+          <mxGeometry y="147.66666666666666" width="167" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-29" value="+splitShipment()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-23">
+          <mxGeometry y="182.66666666666666" width="167" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-30" value="Shipment" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=33.142857142857146;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="458" y="552" width="177" height="239.14285714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-31" value="-shipmentId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-30">
+          <mxGeometry y="33.142857142857146" width="177" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-32" value="-shipmentDate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-30">
+          <mxGeometry y="66.14285714285714" width="177" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-33" value="-shippingMethod" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-30">
+          <mxGeometry y="99.14285714285714" width="177" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-34" value="-status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-30">
+          <mxGeometry y="132.14285714285714" width="177" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-35" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-30">
+          <mxGeometry y="165.14285714285714" width="177" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-36" value="+shipOrder()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-30">
+          <mxGeometry y="173.14285714285714" width="177" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-37" value="+updateStatus()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-30">
+          <mxGeometry y="206.14285714285714" width="177" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-38" value="places" style="curved=1;startArrow=none;endArrow=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="HzTAScDG-thNsHV8U3m5-1" target="HzTAScDG-thNsHV8U3m5-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-39" value="1" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=right;verticalAlign=top;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-38">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-40" value="0..*" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=left;verticalAlign=bottom;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-38">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-41" value="manages" style="curved=1;startArrow=none;endArrow=none;exitX=0.5;exitY=1;entryX=0.35;entryY=0;rounded=0;" edge="1" parent="1" source="HzTAScDG-thNsHV8U3m5-18" target="HzTAScDG-thNsHV8U3m5-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="116" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-42" value="1" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=right;verticalAlign=top;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-41">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-43" value="1" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=left;verticalAlign=bottom;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-41">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-44" value="contains" style="curved=1;startArrow=none;endArrow=none;exitX=0.17;exitY=1;entryX=0.94;entryY=0;rounded=0;" edge="1" parent="1" source="HzTAScDG-thNsHV8U3m5-23" target="HzTAScDG-thNsHV8U3m5-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="271" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-45" value="0..*" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=right;verticalAlign=top;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-44">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-46" value="0..*" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=left;verticalAlign=bottom;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-44">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-47" value="split_into" style="curved=1;startArrow=none;endArrow=none;exitX=0.85;exitY=1;entryX=0;entryY=0.03;rounded=0;" edge="1" parent="1" source="HzTAScDG-thNsHV8U3m5-23" target="HzTAScDG-thNsHV8U3m5-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="424" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-48" value="1" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=left;verticalAlign=top;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-47">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-49" value="1..*" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=right;verticalAlign=bottom;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-47">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-50" value="processes" style="curved=1;startArrow=none;endArrow=none;exitX=0.5;exitY=1;entryX=0.69;entryY=0;rounded=0;" edge="1" parent="1" source="HzTAScDG-thNsHV8U3m5-6" target="HzTAScDG-thNsHV8U3m5-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="591" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-51" value="1" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=right;verticalAlign=top;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-50">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-52" value="0..*" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=left;verticalAlign=bottom;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-50">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-53" value="Customer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237" y="-740" width="160" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-54" value="-customerId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-53">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-58" value="-name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-53">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-55" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-53">
+          <mxGeometry y="78" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-56" value="+placeOrder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-53">
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-59" value="Product" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-468" width="160" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-60" value="-productId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-59">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-61" value="-name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-59">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-64" value="-stockQuantity" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-59">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-62" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-59">
+          <mxGeometry y="104" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-63" value="&lt;div&gt;+updateStock()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-59">
+          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-65" value="Inventory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-740" width="160" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-66" value="-inventoryId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-65">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-67" value="-product" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-65">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-68" value="-quantityAvailable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-65">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-69" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-65">
+          <mxGeometry y="104" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-70" value="&lt;div&gt;+updateQuantity()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-65">
+          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-71" value="Order" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-468" width="160" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-72" value="-orderId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-71">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-73" value="-orderDate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-71">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-74" value="-status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-71">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-75" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-71">
+          <mxGeometry y="104" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-76" value="&lt;div&gt;+calculateTotal()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-71">
+          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-77" value="&lt;div&gt;+splitShipment()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-71">
+          <mxGeometry y="138" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-78" value="Shipment" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-468" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-79" value="-shipmentId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-78">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-80" value="-shipmentDate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-78">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-99" value="-shippingMethod" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-78">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-81" value="-status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-78">
+          <mxGeometry y="104" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-82" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-78">
+          <mxGeometry y="130" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-83" value="&lt;div&gt;+shipOrder()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-78">
+          <mxGeometry y="138" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-84" value="&lt;div&gt;+updateStatus()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-78">
+          <mxGeometry y="164" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-100" value="WarehouseStaff" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-740" width="160" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-101" value="-staffId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-100">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-102" value="-name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-100">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-105" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-100">
+          <mxGeometry y="78" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-106" value="&lt;div&gt;+processShipment()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-100">
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-107" value="&lt;div&gt;+updateInventory()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HzTAScDG-thNsHV8U3m5-100">
+          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-108" value="" style="endArrow=none;html=1;rounded=0;entryX=0.444;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HzTAScDG-thNsHV8U3m5-71" target="HzTAScDG-thNsHV8U3m5-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="-370" as="sourcePoint" />
+            <mxPoint x="308" y="-630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-109" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HzTAScDG-thNsHV8U3m5-108">
+          <mxGeometry x="0.8648" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-110" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HzTAScDG-thNsHV8U3m5-108">
+          <mxGeometry x="-0.8845" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-111" value="places" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-112" value="" style="endArrow=none;html=1;rounded=0;entryX=0.485;entryY=0.979;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HzTAScDG-thNsHV8U3m5-59" target="HzTAScDG-thNsHV8U3m5-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="13" y="-470" as="sourcePoint" />
+            <mxPoint x="140" y="-570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-113" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HzTAScDG-thNsHV8U3m5-112">
+          <mxGeometry x="0.8648" y="1" relative="1" as="geometry">
+            <mxPoint x="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-114" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HzTAScDG-thNsHV8U3m5-112">
+          <mxGeometry x="-0.8845" relative="1" as="geometry">
+            <mxPoint x="10" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-115" value="manages" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HzTAScDG-thNsHV8U3m5-112">
+          <mxGeometry x="0.1611" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-116" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HzTAScDG-thNsHV8U3m5-73" target="HzTAScDG-thNsHV8U3m5-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="252" y="-165" as="sourcePoint" />
+            <mxPoint x="250" y="-300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-117" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HzTAScDG-thNsHV8U3m5-116">
+          <mxGeometry x="0.8648" y="1" relative="1" as="geometry">
+            <mxPoint x="2" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-118" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HzTAScDG-thNsHV8U3m5-116">
+          <mxGeometry x="-0.8845" relative="1" as="geometry">
+            <mxPoint x="-3" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-119" value="contains" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HzTAScDG-thNsHV8U3m5-116">
+          <mxGeometry x="0.1611" relative="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-121" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HzTAScDG-thNsHV8U3m5-80" target="HzTAScDG-thNsHV8U3m5-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="472" y="-245" as="sourcePoint" />
+            <mxPoint x="470" y="-380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-122" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HzTAScDG-thNsHV8U3m5-121">
+          <mxGeometry x="0.8648" y="1" relative="1" as="geometry">
+            <mxPoint x="-6" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-123" value="1..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HzTAScDG-thNsHV8U3m5-121">
+          <mxGeometry x="-0.8845" relative="1" as="geometry">
+            <mxPoint x="-2" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-124" value="split_into" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HzTAScDG-thNsHV8U3m5-121">
+          <mxGeometry x="0.1611" relative="1" as="geometry">
+            <mxPoint x="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-125" value="" style="endArrow=none;html=1;rounded=0;entryX=0.492;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HzTAScDG-thNsHV8U3m5-78" target="HzTAScDG-thNsHV8U3m5-107">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="609" y="-470" as="sourcePoint" />
+            <mxPoint x="580" y="-510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-126" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HzTAScDG-thNsHV8U3m5-125">
+          <mxGeometry x="0.8648" y="1" relative="1" as="geometry">
+            <mxPoint x="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-127" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HzTAScDG-thNsHV8U3m5-125">
+          <mxGeometry x="-0.8845" relative="1" as="geometry">
+            <mxPoint x="10" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HzTAScDG-thNsHV8U3m5-128" value="processes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HzTAScDG-thNsHV8U3m5-125">
+          <mxGeometry x="0.1611" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
